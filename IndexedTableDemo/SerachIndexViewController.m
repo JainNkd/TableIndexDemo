@@ -40,6 +40,23 @@
     [self updateTableData:@""];
 }
 
+//- (void)layoutSubviews {
+//    UITextField *searchField;
+//    NSUInteger numViews = [self.view.subviews count];
+//    for(int i = 0; i < numViews; i++) {
+//        if([[self.view.subviews objectAtIndex:i] isKindOfClass:[UITextField class]]) { //conform?
+//            searchField = [self.view.subviews objectAtIndex:i];
+//        }
+//    }
+//    if(!(searchField == nil)) {
+//        searchField.textColor = [UIColor whiteColor];
+//        [searchField setBackground: [UIImage imageNamed:@"video-send-search-bg@2x.png"] ];
+//        [searchField setBorderStyle:UITextBorderStyleNone];
+//    }
+//    
+//    [super.view layoutSubviews];
+//}
+
 -(void)updateTableData:(NSString*)searchString
 {
     filteredTableData = [[NSMutableDictionary alloc] init];
@@ -105,7 +122,7 @@
     self.tableView.separatorColor=[UIColor clearColor];
     
     [self.tableView setSeparatorInset:UIEdgeInsetsMake(0, 0, 0, 0)];
-    [self.tableView setSeparatorColor:[UIColor lightGrayColor]];
+//    [self.tableView setSeparatorColor:[UIColor lightGrayColor]];
 }
 
 
@@ -193,7 +210,14 @@
 //add search bar
 -(void)createSearchBar
 {
-//    [searchBar setTintColor:[ENSUtil UIColorWithHex:NAVIGATION_COLOR]];
+    
+    [[UISearchBar appearance] setSearchFieldBackgroundImage:[UIImage imageNamed:@"video-send-search-bg@2x.png"]forState:UIControlStateNormal];
+    
+    [[UISearchBar appearance] setImage:[UIImage imageNamed:@"video-send-search-bg@2x.png"] forSearchBarIcon:(UISearchBarIconSearch) state:UIControlStateNormal];
+
+//    [[UISearchBar appearance] setPositionAdjustment:UIOffsetMake(-10, 0) forSearchBarIcon:UISearchBarIconSearch];
+    
+//    [[UITextField appearanceWhenContainedIn:[UISearchBar class], nil] setLeftViewMode:UITextFieldViewModeNever];
     
     self.searchBar.showsCancelButton = YES;
     searchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:self.searchBar contentsController:self];

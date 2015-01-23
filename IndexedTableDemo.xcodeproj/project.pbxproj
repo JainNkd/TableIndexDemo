@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8BBBECF01A5CFA0F003CAF06 /* SerachIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBECEF1A5CFA0F003CAF06 /* SerachIndexViewController.m */; };
 		8BBBECF31A5CFF51003CAF06 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBECF21A5CFF51003CAF06 /* Animal.m */; };
+		8BC23E021A72291400AB29B7 /* video-send-search-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC23E011A72291400AB29B7 /* video-send-search-bg@2x.png */; };
 		F4411A4318D5847800F3328F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4411A4218D5847800F3328F /* Foundation.framework */; };
 		F4411A4518D5847800F3328F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4411A4418D5847800F3328F /* CoreGraphics.framework */; };
 		F4411A4718D5847800F3328F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4411A4618D5847800F3328F /* UIKit.framework */; };
@@ -71,6 +72,7 @@
 		8BBBECEF1A5CFA0F003CAF06 /* SerachIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerachIndexViewController.m; sourceTree = "<group>"; };
 		8BBBECF11A5CFF51003CAF06 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		8BBBECF21A5CFF51003CAF06 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		8BC23E011A72291400AB29B7 /* video-send-search-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "video-send-search-bg@2x.png"; path = "images/video-send-search-bg@2x.png"; sourceTree = "<group>"; };
 		F4411A3F18D5847800F3328F /* IndexedTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndexedTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4411A4218D5847800F3328F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4411A4418D5847800F3328F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -228,6 +230,7 @@
 		F4411A7A18D5E08C00F3328F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8BC23E011A72291400AB29B7 /* video-send-search-bg@2x.png */,
 				F4411AB718D5E2C600F3328F /* wombat.jpg */,
 				F4411A7B18D5E0AF00F3328F /* bear.jpg */,
 				F4411A7C18D5E0AF00F3328F /* black_swan.jpg */,
@@ -359,6 +362,7 @@
 				F4411AA818D5E0AF00F3328F /* koala.jpg in Resources */,
 				F4411AB018D5E0AF00F3328F /* platypus.jpg in Resources */,
 				F4411AA518D5E0AF00F3328F /* guinea_pig.jpg in Resources */,
+				8BC23E021A72291400AB29B7 /* video-send-search-bg@2x.png in Resources */,
 				F4411A9B18D5E0AF00F3328F /* buffalo.jpg in Resources */,
 				F4411A5618D5847800F3328F /* Main.storyboard in Resources */,
 				F4411AA418D5E0AF00F3328F /* greater_rhea.jpg in Resources */,
